@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*******     SIDEBAR CUSTOMIZATION   ********/
+.sidenav {
+  text-align: center;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation-name: fading;
+  background-color: rgb(208, 11, 57);
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  overflow-y: unset;
+  overflow-x: unset;
+  padding-top: 5px;
+}
+
+#sidenav-headers {
+  padding: 10px 0 10px 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  transform: scale(0.8);
+}
+
+p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.sidenav a {
+  font-size: 1.4rem;
+}
+
+.nav-links {
+  margin: 20px;
+}
+
+.main { /******** CUSTOMIZATION OF THE RIGHT SIDE *********/
+  margin: 10px 0 0 160px; 
+  padding: 0px 10px;
+}
+
+#head {
+  background: linear-gradient(90deg,rgb(45, 6, 99),rgb(58, 1, 77));
+  text-align: center;
+}
+
+#page-head {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+}
+
+      /* CURRENCY TABLE CUSTOMIZATION*/
+.sell {
+  color: red;
+}
+
+.pair {
+  color: goldenrod;
+}
+
+.buy {
+  color: green;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*****       KEY FRAME FOR SIDE BAR       ****/
+
+@keyframes fading {
+  0%   {background-color: #08020e;}
+  25%  {background-color: #2f0454;}
+  50%  {background-color: #480f57;}
+  75%  {background-color: #2f0f43;}
+  100% {background-color: #08020e;}
+}
