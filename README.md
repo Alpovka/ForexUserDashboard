@@ -28,3 +28,7 @@ In the panel, the user is able to;
 
 - PHP
 - MySQL
+
+#### Running directive
+
+To run the app in local machine, extract all the files to same directory.
